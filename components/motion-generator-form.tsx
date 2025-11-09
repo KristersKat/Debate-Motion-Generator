@@ -56,7 +56,7 @@ export function MotionGeneratorForm() {
           </CardTitle>
           <CardDescription>
             Enter a topic to get motions about recent news on that subject, or leave
-            it blank to get motions based on today's trending news.
+            it blank to get motions based on today&apos;s trending news.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -71,7 +71,7 @@ export function MotionGeneratorForm() {
                 disabled={isLoading}
               />
               <p className="text-xs text-muted-foreground">
-                Leave blank to explore today's trending news
+                Leave blank to explore today&apos;s trending news
               </p>
             </div>
             <Button
